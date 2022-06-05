@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+/* common section */
+section{
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+/* section one */
+.joc{
+    height: 34vh;
+   background-color: beige;
+}
+.joc h1{
+    font-size: 30px;
+    color:rgb(88, 88, 218);
+}
+.joc p {
+    color: gray;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* section two */
+.ms{
+    height: 34vh;
+    background-color: rgb(88, 168, 88);
+}
+.ms p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+button{
+    width: 280px;
+    height: 60px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 20px;
+}
+/* section three */
+.wu{
+    height: 34vh; 
+    background-color: darkslategrey;
+}
+.wu h1{
+    color: #fff;
+    font-size: 25px;
+}
+.wu p{
+    margin-top: 20px;
+    color:#fff;
+    font-size: 20px;
+}
+
+/* tablet design  */
+@media only screen and (min-width:768px){
+    .joc{
+        height: 40vh;
+    }
+    .ms{
+        height: 40vh;
+    }
+    .wu{
+        height: 40vh;
+    }
+    .ms p{
+        font-weight: 40px;
+   
+    }
+}
+/* desktop design  */
+@media only screen and (min-width:1024px){
+.joc{
+    height: 50vh;
+}
+.ms{
+    height: 50vh; 
+    width: 50vw;
+    float: left;
+}
+.wu{
+    height: 50vh;
+    width: 50vw;
+    float:right;
+}
+}
+
